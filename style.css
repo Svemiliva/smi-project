@@ -3,7 +3,7 @@ body {
     padding: 0px;
 }
 .header  {
-   
+   border-bottom: 2px solid violet;
 }
 .page  {
    
@@ -12,10 +12,49 @@ body {
    
 }
 .column  {
-    border: 1px solid black;
+   
     width: 1000px;
     margin: 0 auto;
 }
 .page .column {
     height: 100vh;
 }
+#logo {
+    display: flex;
+}
+#logo-holder {
+    flex-grow: 1;
+}
+#logo-holder img {
+    width: 60px;
+}
+#social-holder {
+    flex-grow: 1;
+    text-align: right;
+}
+#main-menu {
+    display: flex;
+}
+#main-menu a {
+flex-grow: 1;
+text-align: center;
+display: block;
+padding: 10px 0;
+text-decoration: none;
+color: black;
+transition: 300ms;
+}
+#main-menu a:hover,
+#main-menu a.active {
+    background-color: rgb(239,223,224);
+    color:white ;
+}
+#social-holder a img {
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+}
+#social-holder a {
+    text-decoration: none;
+}
+
