@@ -24,13 +24,14 @@ body {
 }
 #logo {
     display: flex;
-    opacity: 50%;
+    opacity: 90%;
 }
 #logo-holder {
     flex-grow: 1;
 }
 #logo-holder img {
     width: 60px;
+    border-radius: 50%;
 }
 #social-holder {
     flex-grow: 1;
@@ -142,9 +143,51 @@ h2 {
     text-align: center;
 }
 .tehnologija img {
-    width: 48px;
-    height: 48px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 .tehnologija p {
+    font-weight: bold;
+}
+#usluge img {
+    width: 300px;
+    height: 180px;
+}
+#usluge h2 {
+    padding-top: 40px;
+    margin-top: 0px;
+    color: rgb(189, 113, 125);
+}
+#usluge .column > p {
+    color: rgb(189, 113, 125);
+}
+.blog-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.blog-row > div {
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border: 1px solid whitesmoke;
+}
+.blog-row > div > img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+}
+.blog-row > div > p {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 10px;
+    background-color: #22222240;
+    margin-bottom: 0px;
     font-weight: bold;
 }
