@@ -5,17 +5,11 @@ body {
 .header  {
    border-bottom: 2px solid rgb(239,223,224,);
    background-color:rgb(250, 248, 248);
-  
-   
 }
 .page  {
    color: whitesmoke;
 }
-.footer  {
-   
-}
-.column  {
-    
+.column  { 
     width: 1000px;
     margin: 0 auto;
 }
