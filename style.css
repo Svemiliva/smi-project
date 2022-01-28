@@ -295,8 +295,6 @@ grid-area: a;
     font-size: 20px;
 }
 #kontakt {
-    
-    margin-bottom: 20px;
     color: rgb(189, 113, 125);
 }
 
@@ -322,4 +320,33 @@ grid-area: a;
 }
 .kontakt-mapa {
     grid-area: mapa ;
+}
+.footer {
+    border-top: 2px solid rgb(189, 113, 125);
+    font-size: 13px;
+    margin-top: 0;
+    color: rgb(189, 113, 125) ;
+}
+.footer .footer-column {
+    flex-basis: 0;
+    flex-grow: 1;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.footer > .column {
+    display: flex;
+}
+.align-left {
+    text-align: left;
+}
+.align-center {
+    text-align: center;
+}
+.align-right {
+    text-align: right;
+}
+.align-right a {
+    text-decoration: none;
+    color: rgb(189, 113, 125);
+    
 }
