@@ -242,10 +242,84 @@ grid-area: a;
     justify-content: center;
     font-size: 20px;
     font-weight: bold;
-    background-color: #bd717ddd;
+    background-color: rgba(189, 113, 125, 0.867);
     opacity: 0.0;
     transition: 500ms;
 }
 .proizvod:hover .text-holder {
     opacity: 1;
+}
+.pattern-columns {
+    display: flex;
+}
+
+.list {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.descriptions {
+    flex-grow: 2;
+    flex-basis: 0;
+}
+#karijera h2 {
+    text-align: center;
+    padding-top: 50px;
+    color:rgb(189, 113, 125) ;
+}
+.list label {
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid whitesmoke;
+    background-color: #ffffff70;
+    padding: 10px;
+    font-weight: bold;
+    color:rgb(189, 113, 125) ;
+    font-size: 20px;
+}
+.descriptions input {
+    display: none;
+}
+.descriptions .opisi {
+    display: none;
+}
+.descriptions input:checked+.opisi {
+    display: block;
+}
+.descriptions {
+    margin-left: 10px;
+    border: 1px solid whitesmoke;
+    background-color: #ffffff70;
+    padding: 10px;
+    font-weight: bold;
+    color:rgb(189, 113, 125) ;
+    font-size: 20px;
+}
+#kontakt {
+    
+    margin-bottom: 20px;
+    color: rgb(189, 113, 125);
+}
+
+.kontakt-region {
+    display: grid;
+    grid-template: "adrese mapa"
+                   "mailovi mapa" ;
+    grid-template-columns: 300px 1fr ;
+}
+.kontakt-adrese {
+    grid-area: adrese ;
+    padding: 15px;
+    font-size: 13px;
+}
+.kontakt-mailovi {
+    grid-area: mailovi ;
+    padding: 15px;
+    font-size: 13px;
+}
+.kontakt-mailovi a {
+    color: rgb(43, 15, 15);
+    text-decoration: none;
+}
+.kontakt-mapa {
+    grid-area: mapa ;
 }
