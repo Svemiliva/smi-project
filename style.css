@@ -1,6 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0px;
     padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .header  {
    border-bottom: 2px solid rgb(239,223,224,);
